@@ -1,14 +1,16 @@
+#-*-coding:UTF-8-*-
 import math
+
 '''
 	一、函数定义
-		1、格式
-		2、返回值
-		3、入参
-			（1）固定参数
-			（2）默认参数
-			（3）可变参数
-			（4）关键字参数
-			（5）命名关键字参数
+	    1、格式
+	    2、返回值
+	    3、入参
+	    （1）固定参数
+	    （2）默认参数
+	    （3）可变参数
+	    （4）关键字参数
+	    （5）命名关键字参数
 '''
 def Repid_var(Name,Age):
 	print("%s" % Name)
@@ -52,7 +54,7 @@ def NamedKeyWord_var1(sum,*data,addr):
 	print('sum',sum,'others:',addr)	
 
 def NamedKeyWord_var2(name,age,*,addr):
-	print('Name',name,'age:',age'others:',addr)	
+	print('Name',name,'age:',age,'others:',addr)	
 
 
 	Repid_var('wanxinjie',28)
